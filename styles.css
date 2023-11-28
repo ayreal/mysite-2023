@@ -28,7 +28,7 @@ strong {
   font-weight: 600;
 }
 
-.nav-links {
+.links {
   display: flex;
   gap: 8px;
   justify-content: space-between;
