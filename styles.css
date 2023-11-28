@@ -75,13 +75,6 @@ a:hover {
 .left {
   padding: 20px;
   color: #242320;
-  /* filter: contrast(170%) brightness(100%); */
-  background: radial-gradient(
-      circle at 6% 60%,
-      rgba(196, 192, 188, 1),
-      rgba(88, 88, 88, 0.08)
-    ),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 51 51' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
 .right {
