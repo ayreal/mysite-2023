@@ -4,6 +4,7 @@ body {
   font-size: 1.2rem;
   line-height: 1.8rem;
   color: #242320;
+  background-color: #c4c0bc;
   @media (max-width: 769px) {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -72,9 +73,15 @@ a:hover {
 }
 
 .left {
-  background-color: #c4c0bc;
   padding: 20px;
   color: #242320;
+  /* filter: contrast(170%) brightness(100%); */
+  background: radial-gradient(
+      circle at 6% 60%,
+      rgba(196, 192, 188, 1),
+      rgba(88, 88, 88, 0.08)
+    ),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 51 51' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
 .right {
@@ -91,7 +98,6 @@ a:hover {
   position: relative;
   left: -20px;
   top: 10px;
-  padding: 24px 12px 28px 12px;
   aspect-ratio: 9 / 14;
   width: 250px;
   rotate: -4deg;
@@ -108,12 +114,21 @@ a:hover {
   width: 120px;
   margin-bottom: 10px;
   margin-left: 10px;
+  padding-top: 18px;
+  padding-left: 12px;
+  padding-right: 12px;
   position: unset;
   float: right;
 }
 
-.polaroid-int {
-  aspect-ratio: 10 / 13;
+.polaroid-frame-desktop {
+  padding-top: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.polaroid-image {
+  aspect-ratio: 1.8 / 2.4;
   border-top: 1px solid #c8c8ca;
   background-image: url('./me.jpg');
   background-size: cover;
