@@ -107,17 +107,19 @@ a:hover {
   width: 120px;
   margin-bottom: 10px;
   margin-left: 10px;
-  padding-top: 18px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-top: 16px;
+  padding-right: 10px;
+  padding-bottom: 16px;
+  padding-left: 10px;
   position: unset;
   float: right;
 }
 
 .polaroid-frame-desktop {
-  padding-top: 20px;
-  padding-left: 18px;
+  padding-top: 28px;
   padding-right: 18px;
+  padding-left: 18px;
+  padding-bottom: 28px;
 }
 
 .polaroid-image {
