@@ -68,7 +68,7 @@ a:hover {
 
 .container {
   display: grid;
-  grid-template-columns: 36% 64%;
+  grid-template-columns: 36% 1fr;
   height: 100vh;
 }
 
