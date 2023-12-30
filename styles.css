@@ -69,8 +69,13 @@ a:visited {
 }
 
 a:active,
-a:hover {
+a:hover,
+a:focus {
   background-size: 4px 50px;
+}
+
+a:focus {
+  outline-color: #ecedf1;
 }
 
 .container {
